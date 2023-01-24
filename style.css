@@ -55,14 +55,32 @@ height: 500px;
     color: var(--light-color);
 }
 
+/* legal part style  */
+.legal{
+    font-family: var(--font-garmond);
+}
+.card>img{
+    width: 40px;
+height: 90px;
+}
 
+.card:nth-child(2){
+    background-image: linear-gradient(to bottom,#eaeaea,#fff);
+}
+
+.card .card-title{
+    color: var(--dark-2);
+}
+.card-text{
+    color: var(--dark-3);
+    /* font-size: 1rem; */
+
+}
 
 
 /* responsive code  */
 /* for mobile  */
-/* @media screen and (max-width:576px){
-    .banner{
-        width
-    }
+@media screen and (max-width:576px){
     
-} */
+    
+}
