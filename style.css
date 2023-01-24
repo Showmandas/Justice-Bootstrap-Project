@@ -11,7 +11,11 @@
     --primary-color:#B68C5A;
     --dark-2:#414040;
     --dark-3:#707070;
+    --light-color:#E7E7E7;
     --secondary-color:#fff;
+    --font-poppins:'Poppins', sans-serif;
+    --font-garmond:'EB Garamond', serif;
+
 }
 
 /* header part style  */
@@ -31,3 +35,34 @@ color: var(--secondary-color);
 font-weight: 600;
 font-size: 18px;
 }
+
+
+/* banner section style  */
+.banner{
+    height: 530px;
+    background-image: url('images/banner.png');
+}
+
+.banner-part{
+    width: 692px;
+height: 500px;
+}
+
+.banner-part h1{
+    font-family: var(--font-garmond);
+}
+.banner-part p{
+    color: var(--light-color);
+}
+
+
+
+
+/* responsive code  */
+/* for mobile  */
+/* @media screen and (max-width:576px){
+    .banner{
+        width
+    }
+    
+} */
