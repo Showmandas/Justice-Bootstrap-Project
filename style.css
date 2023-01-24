@@ -80,7 +80,10 @@ height: 90px;
 
 /* client part style  */
 .client>h1{
-    font-size: var(--font-poppins);
+    font-family: var(--font-garmond);
+}
+.client > p{
+    font-family: var(--font-poppins);
 }
 .slider{
     height: 500px;
@@ -95,7 +98,12 @@ font-size: 1.5rem;
 }
 
 /* faq section style  */
-
+.faq>h1{
+    font-family: var(--font-garmond);
+}
+.faq p{
+    font-family: var(--font-poppins);
+}
 .accordion{
     width: 500px;
     height: 500px;
@@ -105,16 +113,35 @@ font-size: 1.5rem;
     object-fit: cover;
     height: 500px;
 }
+.accordion-body,.accordion-header{
+    background-color: #F3F3F3;;
+}
 
 /* footer section style  */
 .justify-text{
     font-size: 1rem;
 }
+.col-lg-3 h4{
+    font-family: var(--font-garmond);
+}
 
 
-/* responsive code  */
-/* for mobile  */
+/* Responsive code  */
 @media screen and (max-width:576px){
+ 
+    footer{
+        text-align: center;
+     }
+     
+.slider>img{
+    position: relative;
+    background-color: red;
+    height: 750px;
     
-    
+}
+.slide_caption{
+    position: absolute;
+    top: 0;
+    /* height: 700px; */
+}   
 }
